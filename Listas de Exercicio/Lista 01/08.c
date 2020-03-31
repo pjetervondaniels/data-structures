@@ -10,6 +10,7 @@ cl* criaCilindro(double a,double r){
     cl* cil = (cl*)malloc(sizeof(cl));
     cil->altura = a;
     cil->raio = r;
+    return cil;
 }
 
 void tamanhoLado(cl* cil){
