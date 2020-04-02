@@ -8,7 +8,7 @@ struct aluno{
 
 typedef struct lista Lista;
 
-lista *li;
+Lista *li;
 
 Lista* criaLista();
 
