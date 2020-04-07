@@ -1,2 +1,0 @@
-gcc prog.c -o prog
-./ prog
