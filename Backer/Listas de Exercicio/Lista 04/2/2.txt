@@ -1,0 +1,2 @@
+02 - A alocação estática de memória é quando o tamanho de uma lista já é definido antes da compilação, sendo assim tendo um 
+tamanho estipulado dentro da memória que não se altera independente das ações do usuário.
