@@ -129,6 +129,7 @@ int main(){
 			if(opcao == 5){
 				int n = tamanhoLista(li);
 				printf("\n tamanho da lista: %d",n);
+				printf("\n tamanho de byes: %d",sizeof(li));
 			}
 			if(opcao == 6){
 				sair=1;
