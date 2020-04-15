@@ -71,6 +71,7 @@ int insereFinalLista(Lista *li,struct aluno al){
         li->qtd++;
         return 1;
     }
+    return 0;
 }
 int insereInicioLista(Lista *li,struct aluno al){
     // insere no início da lista
