@@ -4,7 +4,7 @@ int main() {
   // Tipo de dado: Define o conjunto de valores (domínio) que uma
   // variável pode assumir...
   // por exemplo: int v = pode se assumir um conjunto dos inteiros (-2,-1,0,1,2)
-
+	// .. 
   // Estruturas de dados : Trata-se de um relacionamento lógico entre os tipos de dados...
   // Tipos de estruturas de dados ou TAD incluem:
   // - criação de estrutura;
