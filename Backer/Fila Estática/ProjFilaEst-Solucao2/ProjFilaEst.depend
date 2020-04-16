@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1355486874 source:d:\projfilaest\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+
+1355486294 source:d:\projfilaest\filaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+
+1355486672 d:\projfilaest\filaestatica.h
+
+1355486296 source:e:\ertai\levar casa\temp\projfilaest\filaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+
+1356353699 e:\ertai\levar casa\temp\projfilaest\filaestatica.h
+
+1356354778 source:e:\ertai\levar casa\temp\projfilaest-solucao2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+
+1356353699 e:\ertai\levar casa\temp\projfilaest-solucao2\filaestatica.h
+
+1356354697 source:e:\ertai\levar casa\temp\projfilaest-solucao2\filaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+

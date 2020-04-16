@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1355486874 source:d:\projfilaest\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+
+1355486294 source:d:\projfilaest\filaestatica.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+
+1355486672 d:\projfilaest\filaestatica.h
+
