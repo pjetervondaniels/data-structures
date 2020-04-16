@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1419771380 source:g:\temp\projfilaprioridade\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaPrioridade.h"
+
+1419770612 g:\temp\projfilaprioridade\filaprioridade.h
+
+1419771078 source:g:\temp\projfilaprioridade\filaprioridade.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaPrioridade.h"
+
+1419853678 source:e:\ertai\levar casa\temp\projfilaprioridade\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaPrioridade.h"
+
+1419900288 e:\ertai\levar casa\temp\projfilaprioridade\filaprioridade.h
+
+1419853862 source:e:\ertai\levar casa\temp\projfilaprioridade\filaprioridade.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"FilaPrioridade.h"
+
