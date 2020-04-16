@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1419878543 source:e:\ertai\levar casa\temp\projfilaprioridadeheap\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaPrioridadeHeap.h"
+
+1419900306 e:\ertai\levar casa\temp\projfilaprioridadeheap\filaprioridadeheap.h
+
+1419855821 source:e:\ertai\levar casa\temp\projfilaprioridadeheap\filaprioridadeheap.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"FilaPrioridadeHeap.h"
+
