@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1354988998 source:d:\andre\aulas ufu\aulas prontas\estrutura de dados 1\projlistadinencadcirc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncadCirc.h"
+
+1354988220 d:\andre\aulas ufu\aulas prontas\estrutura de dados 1\projlistadinencadcirc\listadinencadcirc.h
+
+1354989099 source:d:\andre\aulas ufu\aulas prontas\estrutura de dados 1\projlistadinencadcirc\listadinencadcirc.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncadCirc.h"
+
+1354985400 source:d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projlistadinencadcirc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncadCirc.h"
+
+1361543323 d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projlistadinencadcirc\listadinencadcirc.h
+
+1361543229 source:d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projlistadinencadcirc\listadinencadcirc.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncadCirc.h"
+
+1361555770 source:d:\pesquisa\publicações\livro estutura de dados em c\códigos\projlistadinencadcirc\listadinencadcirc.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncadCirc.h"
+
+1361543324 d:\pesquisa\publicações\livro estutura de dados em c\códigos\projlistadinencadcirc\listadinencadcirc.h
+
+1361552795 source:d:\pesquisa\publicações\livro estutura de dados em c\códigos\projlistadinencadcirc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncadCirc.h"
+
