@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1355330103 source:d:\projpilhasequencial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
+1355330058 source:d:\projpilhasequencial\pilhasequencial.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
+1355329639 d:\projpilhasequencial\pilhasequencial.h
+
