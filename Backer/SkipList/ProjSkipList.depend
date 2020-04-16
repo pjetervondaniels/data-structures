@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1560260112 source:d:\projskiplist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"SkipList.h"
+
+1560260100 source:d:\projskiplist\skiplist.c
+	<stdio.h>
+	<stdlib.h>
+	"SkipList.h"
+
+1560259531 d:\projskiplist\skiplist.h
+
+1561123477 source:d:\facomufu\semestres\trabalhos\2019-1 gbc034\skiplist\projskiplist\skiplist.c
+	<stdio.h>
+	<stdlib.h>
+	"SkipList.h"
+
+1561122642 d:\facomufu\semestres\trabalhos\2019-1 gbc034\skiplist\projskiplist\skiplist.h
+
+1561123579 source:d:\facomufu\semestres\trabalhos\2019-1 gbc034\skiplist\projskiplist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"SkipList.h"
+
+1561123719 source:d:\pesquisa\publicações\livros\livro estutura de dados em c\material auxiliar\códigos\projskiplist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"SkipList.h"
+
+1561575345 d:\pesquisa\publicações\livros\livro estutura de dados em c\material auxiliar\códigos\projskiplist\skiplist.h
+
+1561588232 source:d:\pesquisa\publicações\livros\livro estutura de dados em c\material auxiliar\códigos\projskiplist\skiplist.c
+	<stdio.h>
+	<stdlib.h>
+	"SkipList.h"
+
