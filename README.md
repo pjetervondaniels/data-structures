@@ -8,8 +8,6 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
 </p>
 
-## Objetivos
-
 Estruturas de Dados em C, Java, Python desenvolvidos como objetivo de estudo dos mesmos.
 
 ## Estruturas já implementadas
