@@ -1,2 +1,0 @@
-03 - A alocação dinâmica pode ser alterada de tamanho na mémoria, enquanto a estática ocupa a mesma mémoria que a foi
-definida.
