@@ -14,7 +14,7 @@ Estruturas de Dados em C, Java, Python desenvolvidos como objetivo de estudo dos
 
 |    | Estrutura                 | C | Java | Python |
 |----|-------------------------------------|-------|------|--------|
-| 1  | Array           | Não Implementada | Não Implementada | Implementada |
+| 1  | Array           | Não Implementada | Implementada | Não Implementada |
 | 2  | Lista Estática            | Implementada | Não Implementada | Não Implementada |
 | 3  | Lista Encadeada           | Implementada | Não Implementada | Implementada |
 | 4  | Fila         | Não Implementada| Não Implementada | Implementada |
