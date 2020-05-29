@@ -1,12 +1,5 @@
-<h1 align="center">
-  Estruturas de dados
-</h1>
-
-
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
-</p>
+# Estruturas de dados
+![](https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000) ![](https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000)
 
 Estruturas de Dados em C, Java, Python desenvolvidos como objetivo de estudo dos mesmos.
 
