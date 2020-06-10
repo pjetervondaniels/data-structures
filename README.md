@@ -10,15 +10,16 @@ Estruturas de Dados em C, Java, Python desenvolvidos como objetivo de estudo dos
 | 1  | Array           | Não Implementada | Implementada | Não Implementada |
 | 2  | Lista Estática            | Implementada | Não Implementada | Não Implementada |
 | 3  | Lista Encadeada           | Implementada | Não Implementada | Implementada |
-| 4  | Fila         | Não Implementada| Não Implementada | Implementada |
-| 5  | Fila de Prioridade        | Não Implementada| Não Implementada | Implementada |
-| 6  | Pilha         | Não Implementada| Não Implementada | Implementada |
-| 7  | Deque         | Não Implementada| Não Implementada | Implementada |
-| 8  | Dicionários         | Não Implementada| Não Implementada | Implementada |
-| 9  | Sets         | Não Implementada| Não Implementada | Implementada |
-| 10  | Tabela Hash         | Não Implementada| Não Implementada | Implementada |
-| 11  | Grafos         | Não Implementada | Não Implementada | Implementada |
-| 12  | Árvore binária         | Não Implementada | Não Implementada | Implementada |
+| 4  | Lista Encadeada Ordenada           | Implementada | Não Implementada | Implementada |
+| 5  | Fila         | Não Implementada| Não Implementada | Implementada |
+| 6  | Fila de Prioridade        | Não Implementada| Não Implementada | Implementada |
+| 7  | Pilha         | Não Implementada| Não Implementada | Implementada |
+| 8  | Deque         | Não Implementada| Não Implementada | Implementada |
+| 9  | Dicionários         | Não Implementada| Não Implementada | Implementada |
+| 10  | Sets         | Não Implementada| Não Implementada | Implementada |
+| 11  | Tabela Hash         | Não Implementada| Não Implementada | Implementada |
+| 12  | Grafos         | Não Implementada | Não Implementada | Implementada |
+| 13  | Árvore binária         | Não Implementada | Não Implementada | Implementada |
 
 ## Como contribuir
 
