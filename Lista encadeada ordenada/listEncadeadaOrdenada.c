@@ -225,8 +225,8 @@ int main (){
 		printf("\n 2) Insere Ordenadamente.......");
 		printf("\n 3) Metodo de mover-para-frente .......");		
 		printf("\n 4) Metodo de transposicao.......");
-		printf("\n 5) Remove valor no final da Lista Encadeada.......");
-		printf("\n 6) Remove determinado valor da lista Encadeada.......");
+		printf("\n 5) Remove valor no inicial da Lista Encadeada.......");
+		printf("\n 6) Remove valor no final da lista Encadeada.......");
 		printf("\n 7) Sair.......");
 		printf("\n===============================================================================");
 		printf("\nDigite o Valor para a Operacao: ");
@@ -247,7 +247,6 @@ int main (){
 				printf("\nValor a ser colocado no inicio da Lista Encadeada: ");
 				scanf("%d",&input);
 				l = moveToFront(l, input);
-				// l = insertFirst(l,input);
 				break;
 			case 4:
 				// case 4
@@ -264,23 +263,8 @@ int main (){
 				// case 6
 				break;
 			case 7:
-				printf("\nValor a ser colocado no final da Lista Encadeada: ");
-				scanf("%d",&input);
-				// l = removeValue(l,input);
-				// case 7
-				break;
-
-			case 8:
-				
-			case 9:
-				printf("\nValor a ser colocado no topo da Lista Encadeada: ");
-				scanf("%d", &input);
-				l = moveToFront(l,input);
-				break;
-			case 10:
 				printf("Encerrando o Loop do menu!");
 				loopMenu = 0;
-				// case 8
 				break;
 			default:
 				printf("Opcao Invalida!");
