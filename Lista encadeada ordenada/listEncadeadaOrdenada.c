@@ -31,8 +31,9 @@ int isEmpty(Celula *lista){
 	*/
 	if(lista == NULL){
 		return 1;
-	}else
+	}else{
 		return 0;
+	}
 }
 
 void freeNode(Celula *q){
