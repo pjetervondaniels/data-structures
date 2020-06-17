@@ -7,28 +7,16 @@ typedef struct sCelula{
 }Celula;
 
 Celula *init(Celula *lista){
-	/*
-	-> Inicia o ponteiro para uma lista encadeada
-	-> lista é o endereço do ponteiro externo para uma lista encadeada 
-	*/
 	lista = NULL;
 	printf("Lista Encadeada iniciada com sucesso!");
 	return lista;
 }
 
 Celula *getNode(){
-	/*
-		A função getnode() aloca/cria um nó para uma lista encadeada.
-	*/
 	return (Celula *)malloc(sizeof(Celula));
 }
 
 int isEmpty(Celula *lista){
-	/*
-	->  Verificar se a lista encadeada está vazia 
-	-> lista é o endereço do primeiro nó da lista encadeada 
-	-> 1 para lista vazia e 0 para lista não vazia...
-	*/
 	if(lista == NULL){
 		return 1;
 	}else
@@ -36,7 +24,6 @@ int isEmpty(Celula *lista){
 }
 
 void freeNode(Celula *q){
-	/* Liberar o espaço de memória ocupado por um nó, aonde q é o endereço do nó a ser liberado */
 	free(q);
 }
 
@@ -50,7 +37,6 @@ void showList(Celula *lista){
 	printf("\n		Printando a Lista....			");
 	printf("\n=============================================");
 
-	// enquanto aux não encontrar o final, ele printa o conteúdo do próximo....
 	while(aux != NULL){
 		printf("\n Posicao da lista encadeada [%d] = %d\n",i,aux->info);
 		aux = aux->next;
@@ -60,74 +46,6 @@ void showList(Celula *lista){
 
 }
 
-
-Celula *insertFirst(Celula *lista, int x){
-	Celula *q;
-	
-	q = getNode();
-	// aloca um nó para q...
-	
-	if(q != NULL){
-		q->info = x;
-		q->next = lista;
-		
-		/*
-			Lembre-se : lista é o primeiro nó da lista, logo quando passar o lista = q, ele vai diretamente para a início da lista...
-		*/
-		
-		lista = q;
-		
-		printf("\n o valor %d foi inserido no inicio com sucesso!",x);
-		return lista;
-	}else{
-		printf("Erro na alocação do nó Q.... \n");
-		return NULL;
-	}
-}
-Celula *insertLast(Celula *lista, int x){
-	Celula *q;
-	Celula *aux;
-	
-	q = getNode();
-	// aloca um nó para q
-	
-	if(q != NULL){
-		q->info = x;
-		q->next = NULL;
-		if(isEmpty(lista) == 1){
-			// caso a lista esteje vazia, lista recebe o nó q
-			lista = q;
-		}else{
-			aux = lista;
-			while(aux->next != NULL){
-				// caso nó não seja o último, ele pula para o próximo nó procurando o final da lista
-				aux = aux->next;
-			}
-			// chegou no final, logo se encontra o nó final e nele coloca o nó q...
-			aux->next = q;
-		}
-		printf("\n o valor %d foi inserido no final com sucesso!",x);
-		return lista;
-	}else{
-		printf("Erro na alocação do nó Q.... \n");
-		return NULL;
-	}	
-}
-
-Celula *removeFirst(Celula *lista){
-	Celula *q;
-	q = lista;
-	if(isEmpty(lista) == 0){
-		lista = q->next;
-		// lista recebe o próximo nó....
-		printf("\n o valor %d removido do inicio da lista encadeada! ", q->info);
-		freeNode(q);
-		// o nó q é eliminado (primeiro nó)......
-		return lista;
-	}else{
-		printf("Lista Vazia!");
-	}
-}
 
 Celula *searchValue(Celula *lista, int x){
 	Celula *q;
@@ -176,7 +94,61 @@ int countNode(Celula *lista){
 	}
 }
 
+Celula *insertFirst(Celula *lista, int x){
+	Celula *q;
+	
+	q = getNode();
+	
+	if(q != NULL){
+		q->info = x;
+		q->next = lista;
+		lista = q;
+		
+		printf("\n o valor %d foi inserido no inicio com sucesso!",x);
+		return lista;
+	}else{
+		printf("Erro na alocação do nó Q.... \n");
+		return NULL;
+	}
+}
+Celula *insertLast(Celula *lista, int x){
+	Celula *q;
+	Celula *aux;
+	
+	q = getNode();
+	
+	if(q != NULL){
+		q->info = x;
+		q->next = NULL;
+		if(isEmpty(lista) == 1){
+			lista = q;
+		}else{
+			aux = lista;
+			while(aux->next != NULL){
+				aux = aux->next;
+			}
+			aux->next = q;
+		}
+		printf("\n o valor %d foi inserido no final com sucesso!",x);
+		return lista;
+	}else{
+		printf("Erro na alocação do nó Q.... \n");
+		return NULL;
+	}	
+}
 
+Celula *removeFirst(Celula *lista){
+	Celula *q;
+	q = lista;
+	if(isEmpty(lista) == 0){
+		lista = q->next;
+		printf("\n o valor %d removido do inicio da lista encadeada! ", q->info);
+		freeNode(q);
+		return lista;
+	}else{
+		printf("Lista Vazia!");
+	}
+}
 
 Celula *removeLast(Celula *lista){
 	Celula *q;
@@ -185,18 +157,15 @@ Celula *removeLast(Celula *lista){
 	int i = 0;
 	if(isEmpty(lista) == 0){
 		if(lista->next == NULL){
-			// quer dizer que a lista tem apenas um valor....
 			freeNode(lista);
 		}else{
 			while(q->next->next != NULL){
-			// procura o penúltimo elemento de uma lista, para ter uma referência do último....
 				q = q->next;
 			}
 		}
 		freeNode(q->next);
 		q->next = NULL;
 		printf("\n o valor foi removido do final da lista encadeada! ");
-		// o nó q é eliminado (primeiro nó)......
 		return lista;
 	}else{
 		printf("Lista Vazia!");
@@ -284,7 +253,7 @@ int main (){
 				// case 6
 				break;
 			case 7:
-				printf("\nValor a ser colocado no final da Lista Encadeada: ");
+				printf("\n valor da lista Encadeada a ser removido: ");
 				scanf("%d",&input);
 				l = removeValue(l,input);
 				// case 7
