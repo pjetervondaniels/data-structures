@@ -11,7 +11,6 @@ Celula *getNode(){
 }
 
 void freeNode(Celula *q){
-	/* Liberar o espaço de memória ocupado por um nó, aonde q é o endereço do nó a ser liberado */
 	free(q);
 }
 
@@ -98,7 +97,6 @@ void showList(Celula **lista){
 	printf("\n		Printando a Lista....			");
 	printf("\n=============================================");
 
-	// enquanto aux não encontrar o final, ele printa o conteúdo do próximo....
 	while(aux != NULL){
 		printf("\n Posicao da lista encadeada [%d] = %d\n",i,aux->info);
 		aux = aux->next;
@@ -142,20 +140,14 @@ int main (){
 				break;
 			case 4:
 				// case 4
-				printf("\nValor a ser eliminado no inicio da Lista Encadeada: ");
-				scanf("%d", &input);
-				insertEnd(&l, input);
+				removeInitial(&l);
 				break;
 			case 5:
 				// case 5
-				removeInitial(&l);
+				removeEnd(&l);
 				break;
 			case 6:
 				// case 6
-				removeEnd(&l);
-				break;
-			case 7:
-				// case 7
 				printf("Encerrando o Loop do menu!");
 				loopMenu = 0;
 				break;				
