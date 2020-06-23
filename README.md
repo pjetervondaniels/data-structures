@@ -13,7 +13,7 @@ Estruturas de Dados em C, Java, Python desenvolvidos como objetivo de estudo dos
 | 5  | Lista Encadeada Circular           | Implementada | Não Implementada | Implementada |
 | 6  | Lista Duplamente Encadeada           | Implementada | Não Implementada | Implementada |
 | 7  | Lista Duplamente Circular           | Implementada | Não Implementada | Implementada |
-| 8  | Fila         | Não Implementada| Não Implementada | Implementada |
+| 8  | Fila         | Implementada| Não Implementada | Implementada |
 | 9  | Fila de Prioridade        | Não Implementada| Não Implementada | Implementada |
 | 10  | Pilha         | Implementada| Não Implementada | Implementada |
 | 11  | Deque         | Não Implementada| Não Implementada | Implementada |
