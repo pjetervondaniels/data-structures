@@ -99,7 +99,7 @@ int main(){
     init(&p1);
     int loopMenu = 1;
 	int chooseMenu;
-int input;
+	int input;
 	while (loopMenu == 1){
 		printf("\n===============================================================================");
 		printf("\n				  MENU 							");
