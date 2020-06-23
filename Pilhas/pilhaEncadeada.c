@@ -54,11 +54,11 @@ void pop(Celula **pilha){
 	q = *pilha;
 	if(isEmpty(*pilha) == 0){
 		aux = *pilha;
-		while(aux->next->next == NULL){
+		while(aux->next->next != NULL){
 			aux = aux->next;
-		}
-        aux->next = NULL;
+		}	
 		freeNode(aux->next->next);
+		aux->next = NULL;
 	}else{
 		printf("Erro: pilha Vazia!");
 	}
