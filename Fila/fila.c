@@ -6,12 +6,13 @@ typedef struct sCelula{
 	struct sCelula *next;
 }Celula;
 
-void init(Celula **lista){
-	*lista = NULL;
+
+void init(Celula **fila){
+	*fila = NULL;
 }
 
-int isEmpty(Celula *lista){
-	if(lista == NULL){
+int isEmpty(Celula *fila){
+	if(fila == NULL){
 		return 1;
 	}else
 		return 0;
@@ -25,7 +26,7 @@ void freeNode(Celula *q){
 	free(q);
 }
 
-void push(Celula **lista, int x){
+void push(Celula **fila, int x){
 	Celula *q;
 	Celula *aux;
 	
@@ -33,10 +34,10 @@ void push(Celula **lista, int x){
 	if(q != NULL){
 		q->info = x;
 		q->next = NULL;
-		if(isEmpty(*lista) == 1){
-			*lista = q;
+		if(isEmpty(*fila) == 1){
+			*fila = q;
 		}else{
-			aux = *lista;
+			aux = *fila;
 			while(aux->next != NULL){
 				aux = aux->next;
 			}
@@ -47,11 +48,11 @@ void push(Celula **lista, int x){
 	}		
 }
 
-void pop(Celula **lista){
+void pop(Celula **fila){
 	Celula *q;
-	q = *lista;
-	if(isEmpty(*lista) == 0){
-		*lista = q->next;
+	q = *fila;
+	if(isEmpty(*fila) == 0){
+		*fila = q->next;
 		freeNode(q);
 	}else{
 		printf("Erro: Lista Vazia!");
@@ -59,14 +60,14 @@ void pop(Celula **lista){
 }
 
 
-void show(Celula **lista){
+void show(Celula **fila){
 	Celula *aux;
-	aux = *lista;
+	aux = *fila;
 	
 	int i = 0;
 	
 	printf("\n=============================================");
-	printf("\n		Printando a Lista....			");
+	printf("\n		Printando a fila....			");
 	printf("\n=============================================");
 
 	while(aux != NULL){
@@ -101,7 +102,7 @@ void menu(){
 				break;
 			case 2:
 				fflush(stdin);
-				printf("\nValor a ser colocado na Pilha: ");
+				printf("\nValor a ser colocado na fila: ");
 				scanf("%d",&input);
 				push(&ptrFila, input);
 				break;
