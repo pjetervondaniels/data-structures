@@ -77,7 +77,7 @@ void removeEnd(Celula **lista){
 	q = *lista;
 	if(isEmpty(*lista) == 0){
 		aux = *lista;
-		while(aux->next->next == NULL){
+		while(aux->next->next != NULL){
 			aux = aux->next;
 		}
 		freeNode(aux->next->next);
