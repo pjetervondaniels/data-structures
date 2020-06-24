@@ -49,19 +49,15 @@ void push(Celula **lista, int x){
 
 void pop(Celula **lista){
 	Celula *q;
-	Celula *aux;
 	q = *lista;
 	if(isEmpty(*lista) == 0){
-		aux = *lista;
-		while(aux->next->next != NULL){
-			aux = aux->next;
-		}
-		freeNode(aux->next->next);
-		aux->next = NULL;
+		*lista = q->next;
+		freeNode(q);
 	}else{
 		printf("Erro: Lista Vazia!");
 	}
 }
+
 
 void show(Celula **lista){
 	Celula *aux;
@@ -74,7 +70,7 @@ void show(Celula **lista){
 	printf("\n=============================================");
 
 	while(aux != NULL){
-		printf("\n Posicao da lista encadeada [%d] = %d\n",i,aux->info);
+		printf("\n Posicao da Fila [%d] = %d\n",i,aux->info);
 		aux = aux->next;
 		i += 1;
 	}
