@@ -87,7 +87,7 @@ void menu(){
 	init(&ptrFila);
     int loopMenu = 1;
 	int chooseMenu;
-	char input;
+	int input;
 	while (loopMenu == 1){
 		printf("\n===============================================================================");
 		printf("\n				  MENU 							");
