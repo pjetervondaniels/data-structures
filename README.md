@@ -1,8 +1,4 @@
-Implementação de Estruturas de Dados em diversas linguagens tendo como objetivo de estudo dos mesmos.
-
-<h2 align="center">
-    Estruturas implementadas
-</h2>
+## Estruturas implementadas
 
 | Estrutura                           |           C      |       Java       | Python       |
 |-------------------------------------|------------------|------------------|--------------|
