@@ -1,9 +1,8 @@
-# Estruturas de dados
-![](https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000) ![](https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000)
+Implementação de Estruturas de Dados em diversas linguagens tendo como objetivo de estudo dos mesmos.
 
-Estruturas de Dados em C, Java, Python desenvolvidos como objetivo de estudo dos mesmos.
-
-## Estruturas implementadas
+<h2 align="center">
+    Estruturas implementadas
+</h2>
 
 | Estrutura                           |           C      |       Java       | Python       |
 |-------------------------------------|------------------|------------------|--------------|
