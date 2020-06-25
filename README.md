@@ -5,23 +5,23 @@ Estruturas de Dados em C, Java, Python desenvolvidos como objetivo de estudo dos
 
 ## Estruturas implementadas
 
-|    | Estrutura                 | C | Java | Python |
-|----|-------------------------------------|-------|------|--------|
-| 1 | Lista Estática            | Implementada | Implementada | Não Implementada |
-| 2  | Lista Encadeada           | Implementada | Não Implementada | Implementada |
-| 4  | Lista Encadeada Ordenada           | Implementada | Não Implementada | Implementada |
-| 5  | Lista Encadeada Circular           | Implementada | Não Implementada | Implementada |
-| 6  | Lista Duplamente Encadeada           | Implementada | Não Implementada | Implementada |
-| 7  | Lista Duplamente Circular           | Implementada | Não Implementada | Implementada |
-| 8  | Fila         | Implementada| Não Implementada | Implementada |
-| 9  | Fila de Prioridade        | Implementada | Não Implementada | Implementada |
-| 10  | Pilha         | Implementada| Não Implementada | Implementada |
-| 11  | Deque         | Não Implementada| Não Implementada | Implementada |
-| 12  | Dicionários         | Não Implementada| Não Implementada | Implementada |
-| 13  | Sets         | Não Implementada| Não Implementada | Implementada |
-| 14  | Tabela Hash         | Não Implementada| Não Implementada | Implementada |
-| 15  | Grafos         | Não Implementada | Não Implementada | Implementada |
-| 16  | Árvore binária         | Não Implementada | Não Implementada | Implementada |
+| Estrutura                           |           C      |       Java       | Python       |
+|-------------------------------------|------------------|------------------|--------------|
+| Árvore binária                      | Não Implementada | Não Implementada | Implementada |
+| Deque                               | Implementada     | Não Implementada | Implementada |
+| Dicionários                         | Não Implementada | Não Implementada | Implementada |
+| Grafos                              | Não Implementada | Não Implementada | Implementada |
+| Lista Duplamente Encadeada          | Implementada     | Não Implementada | Implementada |
+| Lista Duplamente Circular           | Implementada     | Não Implementada | Implementada |
+| Lista Encadeada                     | Implementada     | Não Implementada | Implementada |
+| Lista Encadeada Circular            | Implementada     | Não Implementada | Implementada |
+| Lista Encadeada Ordenada            | Implementada     | Não Implementada | Implementada |
+| Lista Estática                      | Implementada     | Implementada     | Implementada |
+| Fila                                | Implementada     | Não Implementada | Implementada |
+| Fila de Prioridade                  | Implementada     | Não Implementada | Implementada |
+| Pilha                               | Implementada     | Não Implementada | Implementada |
+| Sets                                | Não Implementada | Não Implementada | Implementada |
+| Tabela Hash                         | Não Implementada | Não Implementada | Implementada |
 
 ## Como contribuir
 
