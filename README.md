@@ -1,24 +1,7 @@
-<h2 align="center">
+<h1 align="center">
     Estruturas Implementadas
-</h2>
-
-<p align="center">
-  <a href="#arvores-binarias">Arvores Binárias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-abrir-o-projeto">Como abrir o projeto?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-contribuir">Como contribuir?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#licença">Licença</a>
-</p
+</h1>
   
-## Arvores binárias 
-
-<p align="center">
-  <img alt="ArvoreBinaria" src="https://i.imgur.com/PmxBsh1.gifv">
-</p
-  
-
-
 
 | Estrutura                           |           C      |       Java       | Python       |
 |-------------------------------------|------------------|------------------|--------------|
