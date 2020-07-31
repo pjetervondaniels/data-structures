@@ -1,29 +1,21 @@
-<h1 align="center">
-    Estruturas Implementadas
-</h1>
 
-<h2 align = "center">
-    
-| Structures Implemented              |          
-|-------------------------------------|
-| Binary Tree                         | 
-| Double-ended Queue or Deck          | 
-| Dicionary                           | 
-| Graphs                              | 
-| Doubly Linked List                  | 
-| Double Circular List                | 
-| Linked List                         | 
-| Circular Linked List                | 
-| Ordered Linked List                 | 
-| Static List                         | 
-| Queue                               | 
-| Priority Queue                      | 
-| Stack                               | 
-| Sets                                |
-| Hash table                          |
-    
-</h2>
+## Structures Implemented   
 
+-  Static List
+- Linked List
+    -  Ordered Linked List
+    -  Circular Linked List
+    -  Doubly Linked List
+    -  Double Circular List  
+- Queue
+- Priority Queue 
+- Double-ended Queue or Deck  
+- Stack
+- Binary Tree
+- Sets
+- Dicionary
+- Graphs 
+- Hash table
 
 ## How to contribute
 
@@ -36,4 +28,4 @@ After the merge of your pull request is done, you can delete your branch.
 
 ## License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
