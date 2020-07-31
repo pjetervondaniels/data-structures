@@ -1,35 +1,39 @@
 <h1 align="center">
     Estruturas Implementadas
 </h1>
-  
 
-| Estrutura                           |           C      |       Java       | Python       |
-|-------------------------------------|------------------|------------------|--------------|
-| Árvore binária                      | Não Implementada | Não Implementada | Implementada |
-| Deque                               | Implementada     | Não Implementada | Implementada |
-| Dicionários                         | Não Implementada | Não Implementada | Implementada |
-| Grafos                              | Não Implementada | Não Implementada | Implementada |
-| Lista Duplamente Encadeada          | Implementada     | Não Implementada | Implementada |
-| Lista Duplamente Circular           | Implementada     | Não Implementada | Implementada |
-| Lista Encadeada                     | Implementada     | Não Implementada | Implementada |
-| Lista Encadeada Circular            | Implementada     | Não Implementada | Implementada |
-| Lista Encadeada Ordenada            | Implementada     | Não Implementada | Implementada |
-| Lista Estática                      | Implementada     | Implementada     | Implementada |
-| Fila                                | Implementada     | Não Implementada | Implementada |
-| Fila de Prioridade                  | Implementada     | Não Implementada | Implementada |
-| Pilha                               | Implementada     | Não Implementada | Implementada |
-| Sets                                | Não Implementada | Não Implementada | Implementada |
-| Tabela Hash                         | Não Implementada | Não Implementada | Implementada |
+<h2 align = "center">
+    
+| Structures Implemented              |          
+|-------------------------------------|
+| Binary Tree                         | 
+| Double-ended Queue or Deck          | 
+| Dicionary                           | 
+| Graphs                              | 
+| Doubly Linked List                  | 
+| Double Circular List                | 
+| Linked List                         | 
+| Circular Linked List                | 
+| Ordered Linked List                 | 
+| Static List                         | 
+| Queue                               | 
+| Priority Queue                      | 
+| Stack                               | 
+| Sets                                |
+| Hash table                          |
+    
+</h2>
 
-## Como contribuir
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+## How to contribute
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b minha-feature`;
+- Commit your changes: `git commit -m 'feat: Minha nova feature'`;
+- Push to your branch: `git push origin minha-feature`.
 
-## Licença
+After the merge of your pull request is done, you can delete your branch.
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
